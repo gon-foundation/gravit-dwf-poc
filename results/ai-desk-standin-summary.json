@@ -1,0 +1,45 @@
+{
+ "variant_A_gate": {
+  "blocked_before_execution": 46,
+  "blocked_by_kind": {
+   "concentrated": 10,
+   "inflated_mark": 8,
+   "one_oracle": 14,
+   "overstated_value": 8,
+   "resolved": 6
+  },
+  "executed": 84,
+  "gate_latency_ms_median": 2.49,
+  "gate_latency_ms_p99": 2.8,
+  "gate_log_entries": 150,
+  "requests": 150,
+  "risk_taken": 0
+ },
+ "variant_B_observer": {
+  "business_lost": 0,
+  "consistent": 104,
+  "exceptions": 46,
+  "kinds": {
+   "concentrated": 10,
+   "inflated_mark": 8,
+   "ltv_over": 10,
+   "not_allowed": 10,
+   "one_oracle": 14,
+   "overstated_value": 8,
+   "resolved": 6,
+   "valid": 84
+  },
+  "model_id": "stand-in desk 0.1 (checks LTV and allowed markets only)",
+  "requests": 150,
+  "risk_taken": 46,
+  "risk_taken_by_kind": {
+   "concentrated": 10,
+   "inflated_mark": 8,
+   "one_oracle": 14,
+   "overstated_value": 8,
+   "resolved": 6
+  },
+  "seal_root": "f42a118c9dc85624cf605076645af8284c2c25077e66fc460c1977b3447a1723",
+  "verify": "log matches the seal"
+ }
+}
