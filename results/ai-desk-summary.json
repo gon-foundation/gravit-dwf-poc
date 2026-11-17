@@ -1,0 +1,49 @@
+{
+ "variant_A_gate": {
+  "blocked_before_execution": 53,
+  "blocked_by_kind": {
+   "concentrated": 8,
+   "inflated_mark": 8,
+   "ltv_over": 9,
+   "not_allowed": 2,
+   "one_oracle": 13,
+   "overstated_value": 7,
+   "resolved": 6
+  },
+  "executed": 72,
+  "gate_latency_ms_median": 2.5,
+  "gate_latency_ms_p99": 2.78,
+  "gate_log_entries": 150,
+  "requests": 150,
+  "risk_taken": 0
+ },
+ "variant_B_observer": {
+  "business_lost": 12,
+  "consistent": 85,
+  "exceptions": 65,
+  "kinds": {
+   "concentrated": 10,
+   "inflated_mark": 8,
+   "ltv_over": 10,
+   "not_allowed": 10,
+   "one_oracle": 14,
+   "overstated_value": 8,
+   "resolved": 6,
+   "valid": 84
+  },
+  "model_id": "Qwen2.5-3B-Instruct Q4_K_M sha256:626b4a6678b86442240e33df819e00132d3ba7dddfe1cdc4fbb18e0a9615c62d via llama.cpp b1b770d (macOS arm64, Metal), greedy",
+  "requests": 150,
+  "risk_taken": 53,
+  "risk_taken_by_kind": {
+   "concentrated": 8,
+   "inflated_mark": 8,
+   "ltv_over": 9,
+   "not_allowed": 2,
+   "one_oracle": 13,
+   "overstated_value": 7,
+   "resolved": 6
+  },
+  "seal_root": "476a554fc74884a1037266a29c53697a83f78e581729c57ac6e2717fe6e17c0e",
+  "verify": "log matches the seal"
+ }
+}

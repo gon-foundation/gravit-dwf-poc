@@ -1,0 +1,10 @@
+{
+ "entries": 150,
+ "exceptions": 65,
+ "last_entry_hash": "f70589d105c512401dd760a13e2288690596ef7e4b5fb6c064ec38ff651e1ea3",
+ "merkle_root": "476a554fc74884a1037266a29c53697a83f78e581729c57ac6e2717fe6e17c0e",
+ "observer": "observer-gravit-test",
+ "period": "2026-11-15",
+ "public_key": "7Rhgiw0raOg3BV1w/uTROMD9CHuX0+PyAivKH8wCW8o=",
+ "signature": "CdWDtt5iwZBAnO82pWIDLb42rDiD7kxXlGsmemHzPGwrkRJGvyRTXcRYGGKTrfef5aWwD9/fO8nQcyLvuL+WDw=="
+}
