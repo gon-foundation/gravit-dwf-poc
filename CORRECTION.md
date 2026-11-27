@@ -27,6 +27,8 @@ erased, it is corrected by adding to it.
 | `docs/qpu_roadmap.md` | "Hybrid Grover + VQE (live)" | plan |
 | `observability/metrics_collector.cpp`, `market_integration/kalshi_solana_adapter_v2.5.rs`, `.github/workflows/mainnet-ci.yml`, `infrastructure/solana_mainnet/` | printed messages "Total TVL $18.4M", "Connected to Mainnet", "deployed successfully on Solana Mainnet" | demo output, no real connection or deployment |
 
+**Licence (corrected 27 Nov 2026).** `LICENSE` was headed "Apache License 2.0 with DWF Partnership Clause" and named "Gravit Network and DWF Ventures" as copyright holders. There was no partnership clause in the file and no agreement with DWF Labs or DWF Ventures; DWF Labs wrote on 5 May 2026 that it saw no form of collaboration. `LICENSE` is now the plain Apache License 2.0 text, copyright of the Gravit Open Network Foundation. The former text stays in the history of this repository.
+
 **Next step:** the pilot is to be rebuilt on the public, tested
 [Gravit Verifier](https://github.com/gravit-open-network-foundation/verifier) so that every claim
 made here can be reproduced by anyone from code.
